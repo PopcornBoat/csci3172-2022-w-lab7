@@ -1,0 +1,24 @@
+.border{
+    background-color: #d4cad6;
+    border: solid #27272f;
+}
+
+#search-box {
+    display: inline-block;
+}
+
+.dash-nav {
+    color: #726d74;
+    border: #42424b solid 2px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #bfbbc0;
+}
+.dash-nav p {
+    color: #726d74;
+}
+
+.dash-msg {
+    background-color: #726d74;
+    
+}
