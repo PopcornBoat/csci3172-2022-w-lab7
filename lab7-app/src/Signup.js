@@ -91,11 +91,11 @@ const Signup = ({ getInfo }) => {
                             value={formik.values.favSeason}
                             onBlur={formik.handleBlur}
                         >
-                            <option value="" label="Select a season" />
-                            <option value="Spring" label="Spring" />
-                            <option value="Summer" label="Summer" />
-                            <option value="Fall" label="Fall" />
-                            <option value="Winter" label="Winter" />
+                            <option value="" label="Select a season">Select a season</option>
+                            <option value="Spring" label="Spring">Spring</option>
+                            <option value="Summer" label="Summer">Summer</option>
+                            <option value="Fall" label="Fall">Fall</option>
+                            <option value="Winter" label="Winter">Winter</option>
                         </select>
 
                         <button type="submit" className="form-control btn btn-primary mb-3">Submit</button>
